@@ -1,0 +1,933 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Socicon';
+  src:  url('../fonts/socicon.eot');
+  src:  url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/socicon.woff2') format('woff2'),
+    url('../fonts/socicon.ttf') format('truetype'),
+    url('../fonts/socicon.woff') format('woff'),
+    url('../fonts/socicon.svg#socicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="socicon-"], [class*=" socicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Socicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gqdlgqxglqkajq-eitaa:before {
+  content: "\e97c";
+}
+.gqdlgqxglqkajq-soroush:before {
+  content: "\e97d";
+}
+.gqdlgqxglqkajq-bale:before {
+  content: "\e97e";
+}
+.gqdlgqxglqkajq-zazzle:before {
+  content: "\e97b";
+}
+.gqdlgqxglqkajq-society6:before {
+  content: "\e97a";
+}
+.gqdlgqxglqkajq-redbubble:before {
+  content: "\e979";
+}
+.gqdlgqxglqkajq-avvo:before {
+  content: "\e978";
+}
+.gqdlgqxglqkajq-stitcher:before {
+  content: "\e977";
+}
+.gqdlgqxglqkajq-googlehangouts:before {
+  content: "\e974";
+}
+.gqdlgqxglqkajq-dlive:before {
+  content: "\e975";
+}
+.gqdlgqxglqkajq-vsco:before {
+  content: "\e976";
+}
+.gqdlgqxglqkajq-flipboard:before {
+  content: "\e973";
+}
+.gqdlgqxglqkajq-ubuntu:before {
+  content: "\e958";
+}
+.gqdlgqxglqkajq-artstation:before {
+  content: "\e959";
+}
+.gqdlgqxglqkajq-invision:before {
+  content: "\e95a";
+}
+.gqdlgqxglqkajq-torial:before {
+  content: "\e95b";
+}
+.gqdlgqxglqkajq-collectorz:before {
+  content: "\e95c";
+}
+.gqdlgqxglqkajq-seenthis:before {
+  content: "\e95d";
+}
+.gqdlgqxglqkajq-googleplaymusic:before {
+  content: "\e95e";
+}
+.gqdlgqxglqkajq-debian:before {
+  content: "\e95f";
+}
+.gqdlgqxglqkajq-filmfreeway:before {
+  content: "\e960";
+}
+.gqdlgqxglqkajq-gnome:before {
+  content: "\e961";
+}
+.gqdlgqxglqkajq-itchio:before {
+  content: "\e962";
+}
+.gqdlgqxglqkajq-jamendo:before {
+  content: "\e963";
+}
+.gqdlgqxglqkajq-mix:before {
+  content: "\e964";
+}
+.gqdlgqxglqkajq-sharepoint:before {
+  content: "\e965";
+}
+.gqdlgqxglqkajq-tinder:before {
+  content: "\e966";
+}
+.gqdlgqxglqkajq-windguru:before {
+  content: "\e967";
+}
+.gqdlgqxglqkajq-cdbaby:before {
+  content: "\e968";
+}
+.gqdlgqxglqkajq-elementaryos:before {
+  content: "\e969";
+}
+.gqdlgqxglqkajq-stage32:before {
+  content: "\e96a";
+}
+.gqdlgqxglqkajq-tiktok:before {
+  content: "\e96b";
+}
+.gqdlgqxglqkajq-gitter:before {
+  content: "\e96c";
+}
+.gqdlgqxglqkajq-letterboxd:before {
+  content: "\e96d";
+}
+.gqdlgqxglqkajq-threema:before {
+  content: "\e96e";
+}
+.gqdlgqxglqkajq-splice:before {
+  content: "\e96f";
+}
+.gqdlgqxglqkajq-metapop:before {
+  content: "\e970";
+}
+.gqdlgqxglqkajq-naver:before {
+  content: "\e971";
+}
+.gqdlgqxglqkajq-remote:before {
+  content: "\e972";
+}
+.gqdlgqxglqkajq-internet:before {
+  content: "\e957";
+}
+.gqdlgqxglqkajq-moddb:before {
+  content: "\e94b";
+}
+.gqdlgqxglqkajq-indiedb:before {
+  content: "\e94c";
+}
+.gqdlgqxglqkajq-traxsource:before {
+  content: "\e94d";
+}
+.gqdlgqxglqkajq-gamefor:before {
+  content: "\e94e";
+}
+.gqdlgqxglqkajq-pixiv:before {
+  content: "\e94f";
+}
+.gqdlgqxglqkajq-myanimelist:before {
+  content: "\e950";
+}
+.gqdlgqxglqkajq-blackberry:before {
+  content: "\e951";
+}
+.gqdlgqxglqkajq-wickr:before {
+  content: "\e952";
+}
+.gqdlgqxglqkajq-spip:before {
+  content: "\e953";
+}
+.gqdlgqxglqkajq-napster:before {
+  content: "\e954";
+}
+.gqdlgqxglqkajq-beatport:before {
+  content: "\e955";
+}
+.gqdlgqxglqkajq-hackerone:before {
+  content: "\e956";
+}
+.gqdlgqxglqkajq-hackernews:before {
+  content: "\e946";
+}
+.gqdlgqxglqkajq-smashwords:before {
+  content: "\e947";
+}
+.gqdlgqxglqkajq-kobo:before {
+  content: "\e948";
+}
+.gqdlgqxglqkajq-bookbub:before {
+  content: "\e949";
+}
+.gqdlgqxglqkajq-mailru:before {
+  content: "\e94a";
+}
+.gqdlgqxglqkajq-gitlab:before {
+  content: "\e945";
+}
+.gqdlgqxglqkajq-instructables:before {
+  content: "\e944";
+}
+.gqdlgqxglqkajq-portfolio:before {
+  content: "\e943";
+}
+.gqdlgqxglqkajq-codered:before {
+  content: "\e940";
+}
+.gqdlgqxglqkajq-origin:before {
+  content: "\e941";
+}
+.gqdlgqxglqkajq-nextdoor:before {
+  content: "\e942";
+}
+.gqdlgqxglqkajq-udemy:before {
+  content: "\e93f";
+}
+.gqdlgqxglqkajq-livemaster:before {
+  content: "\e93e";
+}
+.gqdlgqxglqkajq-crunchbase:before {
+  content: "\e93b";
+}
+.gqdlgqxglqkajq-homefy:before {
+  content: "\e93c";
+}
+.gqdlgqxglqkajq-calendly:before {
+  content: "\e93d";
+}
+.gqdlgqxglqkajq-realtor:before {
+  content: "\e90f";
+}
+.gqdlgqxglqkajq-tidal:before {
+  content: "\e910";
+}
+.gqdlgqxglqkajq-qobuz:before {
+  content: "\e911";
+}
+.gqdlgqxglqkajq-natgeo:before {
+  content: "\e912";
+}
+.gqdlgqxglqkajq-mastodon:before {
+  content: "\e913";
+}
+.gqdlgqxglqkajq-unsplash:before {
+  content: "\e914";
+}
+.gqdlgqxglqkajq-homeadvisor:before {
+  content: "\e915";
+}
+.gqdlgqxglqkajq-angieslist:before {
+  content: "\e916";
+}
+.gqdlgqxglqkajq-codepen:before {
+  content: "\e917";
+}
+.gqdlgqxglqkajq-slack:before {
+  content: "\e918";
+}
+.gqdlgqxglqkajq-openaigym:before {
+  content: "\e919";
+}
+.gqdlgqxglqkajq-logmein:before {
+  content: "\e91a";
+}
+.gqdlgqxglqkajq-fiverr:before {
+  content: "\e91b";
+}
+.gqdlgqxglqkajq-gotomeeting:before {
+  content: "\e91c";
+}
+.gqdlgqxglqkajq-aliexpress:before {
+  content: "\e91d";
+}
+.gqdlgqxglqkajq-guru:before {
+  content: "\e91e";
+}
+.gqdlgqxglqkajq-appstore:before {
+  content: "\e91f";
+}
+.gqdlgqxglqkajq-homes:before {
+  content: "\e920";
+}
+.gqdlgqxglqkajq-zoom:before {
+  content: "\e921";
+}
+.gqdlgqxglqkajq-alibaba:before {
+  content: "\e922";
+}
+.gqdlgqxglqkajq-craigslist:before {
+  content: "\e923";
+}
+.gqdlgqxglqkajq-wix:before {
+  content: "\e924";
+}
+.gqdlgqxglqkajq-redfin:before {
+  content: "\e925";
+}
+.gqdlgqxglqkajq-googlecalendar:before {
+  content: "\e926";
+}
+.gqdlgqxglqkajq-shopify:before {
+  content: "\e927";
+}
+.gqdlgqxglqkajq-freelancer:before {
+  content: "\e928";
+}
+.gqdlgqxglqkajq-seedrs:before {
+  content: "\e929";
+}
+.gqdlgqxglqkajq-bing:before {
+  content: "\e92a";
+}
+.gqdlgqxglqkajq-doodle:before {
+  content: "\e92b";
+}
+.gqdlgqxglqkajq-bonanza:before {
+  content: "\e92c";
+}
+.gqdlgqxglqkajq-squarespace:before {
+  content: "\e92d";
+}
+.gqdlgqxglqkajq-toptal:before {
+  content: "\e92e";
+}
+.gqdlgqxglqkajq-gust:before {
+  content: "\e92f";
+}
+.gqdlgqxglqkajq-ask:before {
+  content: "\e930";
+}
+.gqdlgqxglqkajq-trulia:before {
+  content: "\e931";
+}
+.gqdlgqxglqkajq-loomly:before {
+  content: "\e932";
+}
+.gqdlgqxglqkajq-ghost:before {
+  content: "\e933";
+}
+.gqdlgqxglqkajq-upwork:before {
+  content: "\e934";
+}
+.gqdlgqxglqkajq-fundable:before {
+  content: "\e935";
+}
+.gqdlgqxglqkajq-booking:before {
+  content: "\e936";
+}
+.gqdlgqxglqkajq-googlemaps:before {
+  content: "\e937";
+}
+.gqdlgqxglqkajq-zillow:before {
+  content: "\e938";
+}
+.gqdlgqxglqkajq-niconico:before {
+  content: "\e939";
+}
+.gqdlgqxglqkajq-toneden:before {
+  content: "\e93a";
+}
+.gqdlgqxglqkajq-augment:before {
+  content: "\e908";
+}
+.gqdlgqxglqkajq-bitbucket:before {
+  content: "\e909";
+}
+.gqdlgqxglqkajq-fyuse:before {
+  content: "\e90a";
+}
+.gqdlgqxglqkajq-yt-gaming:before {
+  content: "\e90b";
+}
+.gqdlgqxglqkajq-sketchfab:before {
+  content: "\e90c";
+}
+.gqdlgqxglqkajq-mobcrush:before {
+  content: "\e90d";
+}
+.gqdlgqxglqkajq-microsoft:before {
+  content: "\e90e";
+}
+.gqdlgqxglqkajq-pandora:before {
+  content: "\e907";
+}
+.gqdlgqxglqkajq-messenger:before {
+  content: "\e906";
+}
+.gqdlgqxglqkajq-gamewisp:before {
+  content: "\e905";
+}
+.gqdlgqxglqkajq-bloglovin:before {
+  content: "\e904";
+}
+.gqdlgqxglqkajq-tunein:before {
+  content: "\e903";
+}
+.gqdlgqxglqkajq-gamejolt:before {
+  content: "\e901";
+}
+.gqdlgqxglqkajq-trello:before {
+  content: "\e902";
+}
+.gqdlgqxglqkajq-spreadshirt:before {
+  content: "\e900";
+}
+.gqdlgqxglqkajq-500px:before {
+  content: "\e000";
+}
+.gqdlgqxglqkajq-8tracks:before {
+  content: "\e001";
+}
+.gqdlgqxglqkajq-airbnb:before {
+  content: "\e002";
+}
+.gqdlgqxglqkajq-alliance:before {
+  content: "\e003";
+}
+.gqdlgqxglqkajq-amazon:before {
+  content: "\e004";
+}
+.gqdlgqxglqkajq-amplement:before {
+  content: "\e005";
+}
+.gqdlgqxglqkajq-android:before {
+  content: "\e006";
+}
+.gqdlgqxglqkajq-angellist:before {
+  content: "\e007";
+}
+.gqdlgqxglqkajq-apple:before {
+  content: "\e008";
+}
+.gqdlgqxglqkajq-appnet:before {
+  content: "\e009";
+}
+.gqdlgqxglqkajq-baidu:before {
+  content: "\e00a";
+}
+.gqdlgqxglqkajq-bandcamp:before {
+  content: "\e00b";
+}
+.gqdlgqxglqkajq-battlenet:before {
+  content: "\e00c";
+}
+.gqdlgqxglqkajq-mixer:before {
+  content: "\e00d";
+}
+.gqdlgqxglqkajq-bebee:before {
+  content: "\e00e";
+}
+.gqdlgqxglqkajq-bebo:before {
+  content: "\e00f";
+}
+.gqdlgqxglqkajq-behance:before {
+  content: "\e010";
+}
+.gqdlgqxglqkajq-blizzard:before {
+  content: "\e011";
+}
+.gqdlgqxglqkajq-blogger:before {
+  content: "\e012";
+}
+.gqdlgqxglqkajq-buffer:before {
+  content: "\e013";
+}
+.gqdlgqxglqkajq-chrome:before {
+  content: "\e014";
+}
+.gqdlgqxglqkajq-coderwall:before {
+  content: "\e015";
+}
+.gqdlgqxglqkajq-curse:before {
+  content: "\e016";
+}
+.gqdlgqxglqkajq-dailymotion:before {
+  content: "\e017";
+}
+.gqdlgqxglqkajq-deezer:before {
+  content: "\e018";
+}
+.gqdlgqxglqkajq-delicious:before {
+  content: "\e019";
+}
+.gqdlgqxglqkajq-deviantart:before {
+  content: "\e01a";
+}
+.gqdlgqxglqkajq-diablo:before {
+  content: "\e01b";
+}
+.gqdlgqxglqkajq-digg:before {
+  content: "\e01c";
+}
+.gqdlgqxglqkajq-discord:before {
+  content: "\e01d";
+}
+.gqdlgqxglqkajq-disqus:before {
+  content: "\e01e";
+}
+.gqdlgqxglqkajq-douban:before {
+  content: "\e01f";
+}
+.gqdlgqxglqkajq-draugiem:before {
+  content: "\e020";
+}
+.gqdlgqxglqkajq-dribbble:before {
+  content: "\e021";
+}
+.gqdlgqxglqkajq-drupal:before {
+  content: "\e022";
+}
+.gqdlgqxglqkajq-ebay:before {
+  content: "\e023";
+}
+.gqdlgqxglqkajq-ello:before {
+  content: "\e024";
+}
+.gqdlgqxglqkajq-endomodo:before {
+  content: "\e025";
+}
+.gqdlgqxglqkajq-envato:before {
+  content: "\e026";
+}
+.gqdlgqxglqkajq-etsy:before {
+  content: "\e027";
+}
+.etgyrckgchqc:before {
+  content: "\e028";
+}
+.gqdlgqxglqkajq-feedburner:before {
+  content: "\e029";
+}
+.gqdlgqxglqkajq-filmweb:before {
+  content: "\e02a";
+}
+.gqdlgqxglqkajq-firefox:before {
+  content: "\e02b";
+}
+.gqdlgqxglqkajq-flattr:before {
+  content: "\e02c";
+}
+.gqdlgqxglqkajq-flickr:before {
+  content: "\e02d";
+}
+.gqdlgqxglqkajq-formulr:before {
+  content: "\e02e";
+}
+.gqdlgqxglqkajq-forrst:before {
+  content: "\e02f";
+}
+.gqdlgqxglqkajq-foursquare:before {
+  content: "\e030";
+}
+.gqdlgqxglqkajq-friendfeed:before {
+  content: "\e031";
+}
+.gqdlgqxglqkajq-github:before {
+  content: "\e032";
+}
+.gqdlgqxglqkajq-goodreads:before {
+  content: "\e033";
+}
+.gqdlgqxglqkajq-google:before {
+  content: "\e034";
+}
+.gqdlgqxglqkajq-googlescholar:before {
+  content: "\e035";
+}
+.gqdlgqxglqkajq-googlegroups:before {
+  content: "\e036";
+}
+.gqdlgqxglqkajq-googlephotos:before {
+  content: "\e037";
+}
+.gqdlgqxglqkajq-googleplus:before {
+  content: "\e038";
+}
+.gqdlgqxglqkajq-grooveshark:before {
+  content: "\e039";
+}
+.gqdlgqxglqkajq-hackerrank:before {
+  content: "\e03a";
+}
+.gqdlgqxglqkajq-hearthstone:before {
+  content: "\e03b";
+}
+.gqdlgqxglqkajq-hellocoton:before {
+  content: "\e03c";
+}
+.gqdlgqxglqkajq-heroes:before {
+  content: "\e03d";
+}
+.gqdlgqxglqkajq-smashcast:before {
+  content: "\e03e";
+}
+.gqdlgqxglqkajq-horde:before {
+  content: "\e03f";
+}
+.gqdlgqxglqkajq-houzz:before {
+  content: "\e040";
+}
+.gqdlgqxglqkajq-icq:before {
+  content: "\e041";
+}
+.gqdlgqxglqkajq-identica:before {
+  content: "\e042";
+}
+.gqdlgqxglqkajq-imdb:before {
+  content: "\e043";
+}
+.gqdlgqxglqkajq-instagram:before {
+  content: "\e044";
+}
+.gqdlgqxglqkajq-issuu:before {
+  content: "\e045";
+}
+.gqdlgqxglqkajq-istock:before {
+  content: "\e046";
+}
+.gqdlgqxglqkajq-itunes:before {
+  content: "\e047";
+}
+.gqdlgqxglqkajq-keybase:before {
+  content: "\e048";
+}
+.gqdlgqxglqkajq-lanyrd:before {
+  content: "\e049";
+}
+.gqdlgqxglqkajq-lastfm:before {
+  content: "\e04a";
+}
+.gqdlgqxglqkajq-line:before {
+  content: "\e04b";
+}
+.gqdlgqxglqkajq-linkedin:before {
+  content: "\e04c";
+}
+.gqdlgqxglqkajq-livejournal:before {
+  content: "\e04d";
+}
+.gqdlgqxglqkajq-lyft:before {
+  content: "\e04e";
+}
+.gqdlgqxglqkajq-macos:before {
+  content: "\e04f";
+}
+.gqdlgqxglqkajq-mail:before {
+  content: "\e050";
+}
+.gqdlgqxglqkajq-medium:before {
+  content: "\e051";
+}
+.gqdlgqxglqkajq-meetup:before {
+  content: "\e052";
+}
+.gqdlgqxglqkajq-mixcloud:before {
+  content: "\e053";
+}
+.gqdlgqxglqkajq-modelmayhem:before {
+  content: "\e054";
+}
+.gqdlgqxglqkajq-mumble:before {
+  content: "\e055";
+}
+.gqdlgqxglqkajq-myspace:before {
+  content: "\e056";
+}
+.gqdlgqxglqkajq-newsvine:before {
+  content: "\e057";
+}
+.gqdlgqxglqkajq-nintendo:before {
+  content: "\e058";
+}
+.gqdlgqxglqkajq-npm:before {
+  content: "\e059";
+}
+.gqdlgqxglqkajq-odnoklassniki:before {
+  content: "\e05a";
+}
+.gqdlgqxglqkajq-openid:before {
+  content: "\e05b";
+}
+.gqdlgqxglqkajq-opera:before {
+  content: "\e05c";
+}
+.gqdlgqxglqkajq-outlook:before {
+  content: "\e05d";
+}
+.gqdlgqxglqkajq-overwatch:before {
+  content: "\e05e";
+}
+.gqdlgqxglqkajq-patreon:before {
+  content: "\e05f";
+}
+.gqdlgqxglqkajq-paypal:before {
+  content: "\e060";
+}
+.gqdlgqxglqkajq-periscope:before {
+  content: "\e061";
+}
+.gqdlgqxglqkajq-persona:before {
+  content: "\e062";
+}
+.rrlfotvvvccxvkx:before {
+  content: "\e063";
+}
+.gqdlgqxglqkajq-play:before {
+  content: "\e064";
+}
+.gqdlgqxglqkajq-player:before {
+  content: "\e065";
+}
+.gqdlgqxglqkajq-playstation:before {
+  content: "\e066";
+}
+.gqdlgqxglqkajq-pocket:before {
+  content: "\e067";
+}
+.gqdlgqxglqkajq-qq:before {
+  content: "\e068";
+}
+.gqdlgqxglqkajq-quora:before {
+  content: "\e069";
+}
+.gqdlgqxglqkajq-raidcall:before {
+  content: "\e06a";
+}
+.gqdlgqxglqkajq-ravelry:before {
+  content: "\e06b";
+}
+.gqdlgqxglqkajq-reddit:before {
+  content: "\e06c";
+}
+.gqdlgqxglqkajq-renren:before {
+  content: "\e06d";
+}
+.gqdlgqxglqkajq-researchgate:before {
+  content: "\e06e";
+}
+.gqdlgqxglqkajq-residentadvisor:before {
+  content: "\e06f";
+}
+.gqdlgqxglqkajq-reverbnation:before {
+  content: "\e070";
+}
+.gqdlgqxglqkajq-rss:before {
+  content: "\e071";
+}
+.gqdlgqxglqkajq-sharethis:before {
+  content: "\e072";
+}
+.gqdlgqxglqkajq-skype:before {
+  content: "\e073";
+}
+.gqdlgqxglqkajq-slideshare:before {
+  content: "\e074";
+}
+.gqdlgqxglqkajq-smugmug:before {
+  content: "\e075";
+}
+.gqdlgqxglqkajq-snapchat:before {
+  content: "\e076";
+}
+.gqdlgqxglqkajq-songkick:before {
+  content: "\e077";
+}
+.gqdlgqxglqkajq-soundcloud:before {
+  content: "\e078";
+}
+.gqdlgqxglqkajq-spotify:before {
+  content: "\e079";
+}
+.gqdlgqxglqkajq-stackexchange:before {
+  content: "\e07a";
+}
+.gqdlgqxglqkajq-stackoverflow:before {
+  content: "\e07b";
+}
+.gqdlgqxglqkajq-starcraft:before {
+  content: "\e07c";
+}
+.gqdlgqxglqkajq-stayfriends:before {
+  content: "\e07d";
+}
+.gqdlgqxglqkajq-steam:before {
+  content: "\e07e";
+}
+.gqdlgqxglqkajq-storehouse:before {
+  content: "\e07f";
+}
+.gqdlgqxglqkajq-strava:before {
+  content: "\e080";
+}
+.gqdlgqxglqkajq-streamjar:before {
+  content: "\e081";
+}
+.gqdlgqxglqkajq-stumbleupon:before {
+  content: "\e082";
+}
+.gqdlgqxglqkajq-swarm:before {
+  content: "\e083";
+}
+.gqdlgqxglqkajq-teamspeak:before {
+  content: "\e084";
+}
+.gqdlgqxglqkajq-teamviewer:before {
+  content: "\e085";
+}
+.gqdlgqxglqkajq-technorati:before {
+  content: "\e086";
+}
+.gqdlgqxglqkajq-telegram:before {
+  content: "\e087";
+}
+.gqdlgqxglqkajq-tripadvisor:before {
+  content: "\e088";
+}
+.gqdlgqxglqkajq-tripit:before {
+  content: "\e089";
+}
+.gqdlgqxglqkajq-triplej:before {
+  content: "\e08a";
+}
+.gqdlgqxglqkajq-tumblr:before {
+  content: "\e08b";
+}
+.gqdlgqxglqkajq-twitch:before {
+  content: "\e08c";
+}
+.ufhxvdzsvcelc:before {
+  content: "\e08d";
+}
+.gqdlgqxglqkajq-uber:before {
+  content: "\e08e";
+}
+.gqdlgqxglqkajq-ventrilo:before {
+  content: "\e08f";
+}
+.gqdlgqxglqkajq-viadeo:before {
+  content: "\e090";
+}
+.gqdlgqxglqkajq-viber:before {
+  content: "\e091";
+}
+.gqdlgqxglqkajq-viewbug:before {
+  content: "\e092";
+}
+.gqdlgqxglqkajq-vimeo:before {
+  content: "\e093";
+}
+.gqdlgqxglqkajq-vine:before {
+  content: "\e094";
+}
+.gqdlgqxglqkajq-vkontakte:before {
+  content: "\e095";
+}
+.gqdlgqxglqkajq-warcraft:before {
+  content: "\e096";
+}
+.gqdlgqxglqkajq-wechat:before {
+  content: "\e097";
+}
+.gqdlgqxglqkajq-weibo:before {
+  content: "\e098";
+}
+.gqdlgqxglqkajq-whatsapp:before {
+  content: "\e099";
+}
+.gqdlgqxglqkajq-wikipedia:before {
+  content: "\e09a";
+}
+.gqdlgqxglqkajq-windows:before {
+  content: "\e09b";
+}
+.gqdlgqxglqkajq-wordpress:before {
+  content: "\e09c";
+}
+.gqdlgqxglqkajq-wykop:before {
+  content: "\e09d";
+}
+.gqdlgqxglqkajq-xbox:before {
+  content: "\e09e";
+}
+.gqdlgqxglqkajq-xing:before {
+  content: "\e09f";
+}
+.gqdlgqxglqkajq-yahoo:before {
+  content: "\e0a0";
+}
+.gqdlgqxglqkajq-yammer:before {
+  content: "\e0a1";
+}
+.gqdlgqxglqkajq-yandex:before {
+  content: "\e0a2";
+}
+.gqdlgqxglqkajq-yelp:before {
+  content: "\e0a3";
+}
+.gqdlgqxglqkajq-younow:before {
+  content: "\e0a4";
+}
+.gqdlgqxglqkajq-youtube:before {
+  content: "\e0a5";
+}
+.gqdlgqxglqkajq-zapier:before {
+  content: "\e0a6";
+}
+.gqdlgqxglqkajq-zerply:before {
+  content: "\e0a7";
+}
+.gqdlgqxglqkajq-zomato:before {
+  content: "\e0a8";
+}
+.gqdlgqxglqkajq-zynga:before {
+  content: "\e0a9";
+}
